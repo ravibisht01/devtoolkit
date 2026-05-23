@@ -62,10 +62,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className="dark" suppressHydrationWarning>
       <body className={`${dmSans.variable} ${jetbrainsMono.variable} ${syne.variable}`}>
         <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6899244710955145"
+          async 
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?
+          client=ca-pub-6899244710955145"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
         />
         {children}
         <Toaster
