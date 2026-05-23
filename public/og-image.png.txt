@@ -1,0 +1,2 @@
+Replace this file with a 1200x630 PNG for social sharing.
+You can generate one with: https://og-playground.vercel.app
