@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next'
+import Script from 'next/script'
 import { DM_Sans, JetBrains_Mono, Syne } from 'next/font/google'
 import { Toaster } from 'react-hot-toast'
 import '@/styles/globals.css'
@@ -60,6 +61,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
       <body className={`${dmSans.variable} ${jetbrainsMono.variable} ${syne.variable}`}>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6899244710955145"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         {children}
         <Toaster
           position="top-right"
