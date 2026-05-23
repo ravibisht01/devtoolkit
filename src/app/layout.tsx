@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { DM_Sans, JetBrains_Mono, Syne } from 'next/font/google'
 import { Toaster } from 'react-hot-toast'
-// import '@/styles/globals.css'
+import '@/styles/globals.css'
 
 // ── Fonts ──────────────────────────────────────────────────
 const dmSans = DM_Sans({
