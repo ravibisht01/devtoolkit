@@ -45,7 +45,9 @@ export default function AllToolsClient() {
 
       {filtered.length === 0 && (
         <div className="text-center py-20 text-slate-500">
-          <p className="text-lg">No tools found for "{query}"</p>
+          <p className="text-lg">
+            No tools found for &quot;{query}&quot;
+          </p>
         </div>
       )}
     </div>

@@ -132,7 +132,9 @@ export default function Navbar() {
                   </ul>
                 )}
                 {query.length > 1 && results.length === 0 && (
-                  <p className="text-center text-slate-500 text-sm py-6">No tools found for "{query}"</p>
+                   <p className="text-center text-slate-500 text-sm py-6">
+                    No tools found for &quot;{query}&quot;
+                  </p>
                 )}
               </div>
             </motion.div>
