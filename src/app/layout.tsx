@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { DM_Sans, JetBrains_Mono, Syne } from 'next/font/google'
 import { Toaster } from 'react-hot-toast'
-import '@/styles/globals.css'
+// import '@/styles/globals.css'
 
 // ── Fonts ──────────────────────────────────────────────────
 const dmSans = DM_Sans({
@@ -32,6 +32,9 @@ export const metadata: Metadata = {
   keywords: ['developer tools', 'json formatter', 'regex tester', 'base64', 'jwt decoder', 'uuid generator', 'online tools'],
   authors:  [{ name: 'DevToolkit' }],
   creator:  'DevToolkit',
+  verification: {
+    google: "UVvO1McbSvJZqZAv79iD48-RF28LxhvpgFkV5KiIEuI",
+  },
   robots:   { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     type:        'website',
